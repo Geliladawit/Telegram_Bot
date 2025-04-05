@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-bot
+    name: sapphire_telegram-bot
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn webhook_server:app
